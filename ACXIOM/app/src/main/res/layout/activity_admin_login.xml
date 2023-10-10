@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d3d3d3 "
+    tools:context=".Admin_Login">
+
+    <TextView
+        android:id="@+id/USERVEvent"
+        android:layout_width="406dp"
+        android:layout_height="65dp"
+        android:background="#06BCFD"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:paddingLeft="20sp"
+        android:text="Event Management System"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.009" />
+
+    <TextView
+        android:id="@+id/vendorLOGINUSER"
+        android:layout_width="130dp"
+        android:layout_height="48dp"
+        android:background="#183083"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:text=" User Id"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.258" />
+
+    <EditText
+        android:id="@+id/adminSignUP_User"
+        android:layout_width="178dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="5sp"
+        android:background="#7270BBC6"
+        android:hint="Admin"
+        android:text="Admin"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.873"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.252" />
+
+    <TextView
+        android:id="@+id/vendor_Password"
+        android:layout_width="130dp"
+        android:layout_height="48dp"
+        android:background="#183083"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="Password"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.081"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.395" />
+
+    <EditText
+        android:id="@+id/adminLogin_P"
+        android:layout_width="178dp"
+        android:layout_height="48dp"
+        android:background="#7270BBC6"
+        android:ems="10"
+        android:hint="Admin"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.875"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.39"
+        app:passwordToggleEnabled="true" />
+
+    <Button
+        android:id="@+id/admin_login_cancel"
+        android:layout_width="102dp"
+        android:layout_height="60dp"
+        android:text="Cancel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.132"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.603" />
+
+    <Button
+        android:id="@+id/admin_login_login"
+        android:layout_width="102dp"
+        android:layout_height="60dp"
+        android:text="Login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.854"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.603" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
